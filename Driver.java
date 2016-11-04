@@ -89,7 +89,7 @@ public class Driver implements AutoComplete{
 		Scanner input = new Scanner(System.in);
 		
         
-// Read entire file into FileArray - splitting into weight / delimiter / word.
+// Read entire file into FileArray - splitting into weight / delimiter / word..
         while (inWords.hasNextLine()) {
         	String line = inWords.nextLine();
         	wordTokens = line.split("\\s+");
